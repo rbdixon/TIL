@@ -22,3 +22,4 @@
     - Check the Logger++ view to make sure you are alternating between login and intruder requests and that the login request is always getting a new cookie and that the intruder request continues to use the old one.
     - A proper app should do a server invalidation on LRU cookies as new ones are invalidated.
 * You can [encode IP addresses all sorts of weird ways](http://www.pc-help.org/obscure.htm) to obscure them from filters.
+* Take care not to melt your SIM card with a heat gun.
