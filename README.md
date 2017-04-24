@@ -34,7 +34,7 @@
 * Saleae firmware extraction from SPI: Capture, SPI decoder, save to text file. @scanlime
 * Slow hot air removal? Add leaded solder + flux to lower melting point. Chip-Quik if needed. @scanlime
 * Use a low-speed USB device like a keyboard to aid in differentiating D+/D-. USB 2.0 HS has a floating idle-state which requires a scope to identify. @scanlime
-* [USB HS D+/D- differentiation](https://electronics.stackexchange.com/questions/73295/in-a-usb-cable-is-it-ok-to-swap-the-d-and-d-wires)
+* [USB HS D+/D- differentiation](https://electronics.stackexchange.com/questions/73295/in-a-usb-cable-is-it-ok-to-swap-the-d-and-d-wires). D+ is the first picture, D- is the second. The key differentiator is the polarity of the first pulse after the sync. @scanlime
 
 ![USB 2.0 HS D+](USB_HS_D_plus.png)
 
