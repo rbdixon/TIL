@@ -39,3 +39,10 @@
 ![USB 2.0 HS D+](USB_HS_D_plus.png)
 
 ![USB 2.0 HS D-](USB_HS_D_minus.png)
+
+* [Binvis.io](http://binvis.io) is a Hilbert curve binary visualizer. It does not upload your binary.
+* Earth grounded electronics can fry your scope due to a ground loop. If your device is battery operated or operated using just a 2-prong plug you are fine. 3-prong plugs may have an Earth ground which could result in a low-impedance short to ground if the probe ground clip is (accidentally) connected to anything with a voltage differential on the device. This can also affect **USB** devices like the Saleae probe if _other_ USB devices or the PC have an Earth ground. The PC most certainly does. Solution: Run circuit from the bench supply ($), use an isolated differential probe ($$), [USB isolator](https://www.adafruit.com/product/2107) ($). [EEVblog](https://www.youtube.com/watch?v=xaELqAo4kkQ)
+
+![Ground Loop](ground_loop.png)
+
+![Group Loop in USB](ground_loop_usb.png)
